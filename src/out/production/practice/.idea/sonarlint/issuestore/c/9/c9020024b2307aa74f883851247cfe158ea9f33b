@@ -1,0 +1,11 @@
+
+x
+java:S1854
+"5Remove this useless assignment to local variable "n".(“âÃ8€ˆòı1J$d9db35b6-a40d-476b-96e2-b64472a64e26
+}
+java:S1854	"5Remove this useless assignment to local variable "m".(¶Áşÿÿÿÿÿ8€ˆòı1J$ad06d52b-1729-4f43-b6b5-f2036e331880
+n
+java:S1481	"&Remove this unused "m" local variable.(¶Áşÿÿÿÿÿ8€ˆòı1J$35cef407-b189-4ab8-be13-5e6523c45f49
+i
+java:S1481
+"&Remove this unused "n" local variable.(“âÃ8€ˆòı1J$344c88cd-5699-4620-9b11-d9879ac816f2

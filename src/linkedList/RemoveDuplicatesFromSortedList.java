@@ -20,7 +20,7 @@ public class RemoveDuplicatesFromSortedList {
 		l3.next = l4;
 		l4.next = l5;
 
-		ListNode head = deleteDuplicates(null);
+		ListNode head = deleteDuplicates(l1);
 
 		System.out.println();
 

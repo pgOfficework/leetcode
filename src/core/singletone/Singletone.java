@@ -16,7 +16,7 @@ public class Singletone implements Serializable, Cloneable{
 	//serialization prevention
 	protected Object readResolve() {
 		return instance;
-		
+		 
 	}
 	
 	public static Singletone getSingletoneInstance() {
