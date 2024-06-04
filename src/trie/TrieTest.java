@@ -5,19 +5,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TrieTest {
-    private TrieNode root = new TrieNode();
+    private final TrieNode root = new TrieNode();
 
     public static void main(String[] args) {
         TrieTest trie = new TrieTest();
 
-        List<String> inputList=List.of("prathamesh","pratik","patric","pat","java");
+        List<String> inputList=List.of("Prathame@@sh","pr7atik","pat--ric","pat","java");
         for (String s: inputList){
-            trie.insert(s);
+            trie.insert(s.toLowerCase().replaceAll("[^a-zA-Z]", ""));
         }
         System.out.println();
         System.out.println(trie.search("prat-"));
 
-        List<String> results = trie.autoComplete("pra");
+        List<String> results = trie.autoComplete("p");
         System.out.println(results);
     }
 
@@ -43,15 +43,18 @@ public class TrieTest {
 
     private void insert(String word, TrieNode node) {
         if (word == null || word.isEmpty()) return;
+
         char c = word.charAt(0);
         if (node.contains(c)) node.add(c);
+
         TrieNode nextNode = node.get(c);
+
         if (word.length() == 1) nextNode.setEndOfWord(true);
         insert(word.substring(1), nextNode);
 
     }
 
-    public List<String> autoComplete(String prefix) {
+    public List<String> autoComplete( String prefix) {
         List<String> results = new ArrayList<>();
         TrieNode node = root;
 
