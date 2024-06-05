@@ -5,19 +5,12 @@ public class BestTimeToBuyAndSellStockII {
 
 
         int profit=0;
-        int buy=0;
-        int sell;
 
-        for (int i = 1; i < prices.length; i++) {
-           if (prices[i]<prices[i-1]){
-               buy=prices[i];
+        for (int i = 0; i+1 < prices.length; i++) {
 
-           }
-           else if (prices[i]>prices[i-1]){
-               buy=prices[i-1];
-
-               System.out.println("--"+(prices[i]-prices[i-1]));
-           }
+            if (prices[i]<prices[i+1]){
+                profit=profit+(prices[i+1]-prices[i]);
+            }
         }
 
     return  profit;
@@ -25,7 +18,7 @@ public class BestTimeToBuyAndSellStockII {
 
     public static void main(String[] args) {
         System.out.println(new BestTimeToBuyAndSellStockII().maxProfit(
-                new int[]{7,1,5,3,6,4}
+                new int[]{7,6,4,3,1}
         ));
     }
 }
