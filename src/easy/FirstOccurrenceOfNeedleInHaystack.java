@@ -24,7 +24,7 @@ public class FirstOccurrenceOfNeedleInHaystack {
     private static int checkOcurence(String haystack, String needle) {
         int haystackLength = haystack.length();
         int needleLength = needle.length();
-        for (int i = 0; i <= haystackLength-needleLength; i++) {
+        for (int i = 0; i <= haystackLength - needleLength; i++) {
             int j = i;
             int k = 0;
             int count = 0;
@@ -37,23 +37,23 @@ public class FirstOccurrenceOfNeedleInHaystack {
             }
 
         }
-    // int haystackLength = haystack.length();
-    // int needleLength = needle.length();
-    // for (int i = 0; i < haystackLength; i++) {
-    // if (haystackLength - needleLength >= 0) {
-    // for (int j = 0; j < needleLength; j++) {
-    // int k = i + j;
-    // if (k >= haystackLength)
-    // return -1;
-    // else if (haystack.charAt(k) != needle.charAt(j)) {
-    // break;
-    // } else if ((haystack.charAt(k) == needle.charAt(j)) && (j == (needleLength -
-    // 1))) {
-    // return i;
-    // }
-    // }
-    // }
-    // }
-     return -1;
+        // int haystackLength = haystack.length();
+        // int needleLength = needle.length();
+        // for (int i = 0; i < haystackLength; i++) {
+        // if (haystackLength - needleLength >= 0) {
+        // for (int j = 0; j < needleLength; j++) {
+        // int k = i + j;
+        // if (k >= haystackLength)
+        // return -1;
+        // else if (haystack.charAt(k) != needle.charAt(j)) {
+        // break;
+        // } else if ((haystack.charAt(k) == needle.charAt(j)) && (j == (needleLength -
+        // 1))) {
+        // return i;
+        // }
+        // }
+        // }
+        // }
+        return -1;
     }
 }

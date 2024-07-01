@@ -7,20 +7,20 @@ import java.util.Scanner;
 public class A05Armstrong {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
-            int number=sc.nextInt();
-            int number2=0;
+            int number = sc.nextInt();
+            int number2 = 0;
             int rem;
-            int number1=number;
+            int number1 = number;
 
-            while (number1>0) {
-                rem=number1%10;
-                number2=number2+(rem*rem*rem);
-                number1=number1/10;
+            while (number1 > 0) {
+                rem = number1 % 10;
+                number2 = number2 + (rem * rem * rem);
+                number1 = number1 / 10;
             }
-            if (number2==number) {
-                System.out.println(number+" is armstrong number");
+            if (number2 == number) {
+                System.out.println(number + " is armstrong number");
             } else {
-                System.out.println(number+" is not armstrong number");
+                System.out.println(number + " is not armstrong number");
             }
         }
     }

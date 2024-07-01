@@ -30,31 +30,31 @@ Constraints:
 -3 * 104 <= nums[i] <= 3 * 104
 Each element in the array appears twice except for one element which appears only once.*/
 public class SingleNumber {
-	
-	public static int singleNumber(int[] nums) {
-		if(nums.length == 1){
+
+    public static int singleNumber(int[] nums) {
+        if (nums.length == 1) {
             return nums[0];
         }
-		Arrays.sort(nums);
-		
-		for (int i : nums) {
-			System.out.println(i);
-		}
-		int i=0;
-		while (i<nums.length-1) {
-			System.out.println("...."+i);
-			if(nums[i]!=nums[i+1]) {
-				return nums[i];
-			}
-		}
-		return 0;
-		
-	}
+        Arrays.sort(nums);
 
-	public static void main(String[] args) {
-		int[] input={4,1,2,1,2};
-		System.out.println(singleNumber(input));
+        for (int i : nums) {
+            System.out.println(i);
+        }
+        int i = 0;
+        while (i < nums.length - 1) {
+            System.out.println("...." + i);
+            if (nums[i] != nums[i + 1]) {
+                return nums[i];
+            }
+        }
+        return 0;
 
-	}
+    }
+
+    public static void main(String[] args) {
+        int[] input = {4, 1, 2, 1, 2};
+        System.out.println(singleNumber(input));
+
+    }
 
 }

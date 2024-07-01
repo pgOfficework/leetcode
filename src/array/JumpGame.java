@@ -14,7 +14,7 @@ public class JumpGame {
         int len = nums.length;
         int i = 0;
 
-        if (nums[0]==len-1)
+        if (nums[0] == len - 1)
             return true;
 
         while (i < len) {
@@ -25,13 +25,13 @@ public class JumpGame {
         }
 
 
-        if (i < len-1)
+        if (i < len - 1)
             return false;
         return true;
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[]{2,0,0};
+        int[] arr = new int[]{2, 0, 0};
 
         System.out.println(canJump(arr));
     }

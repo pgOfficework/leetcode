@@ -1,11 +1,12 @@
 package string;
+
 //#58
 public class LengthOfLastWord {
 
     public static int lengthOfLastWord(String s) {
-        s=s.trim();
+        s = s.trim();
         for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(s.length()-1-i)==' ') return i;
+            if (s.charAt(s.length() - 1 - i) == ' ') return i;
         }
         return 0;
     }

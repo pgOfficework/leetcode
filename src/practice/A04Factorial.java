@@ -6,16 +6,16 @@ import java.util.Scanner;
 
 public class A04Factorial {
     public static void main(String[] args) {
-       
-        try (Scanner scanner = new Scanner(System.in)) {
-            int num=scanner.nextInt();
-             int fact=1;
 
-             while(num!=0) {
-                fact=fact*num--;
-             }
-             System.out.println(fact);
+        try (Scanner scanner = new Scanner(System.in)) {
+            int num = scanner.nextInt();
+            int fact = 1;
+
+            while (num != 0) {
+                fact = fact * num--;
+            }
+            System.out.println(fact);
         }
-          
+
     }
 }

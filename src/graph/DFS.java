@@ -5,23 +5,23 @@ import java.util.Queue;
 import java.util.Stack;
 
 public class DFS {
-	
-	static Graph graph;
 
-	public static void main(String[] args) {
-		int v = 5;
-		int source = 0;
+    static Graph graph;
 
-		graph = new Graph(v);
-		graph.addEdge(0, 1);
-		graph.addEdge(1, 2);
-		graph.addEdge(2, 3);
-		graph.addEdge(3, 0);
-		graph.addEdge(2, 4);
+    public static void main(String[] args) {
+        int v = 5;
+        int source = 0;
 
-		System.out.println(graph);
+        graph = new Graph(v);
+        graph.addEdge(0, 1);
+        graph.addEdge(1, 2);
+        graph.addEdge(2, 3);
+        graph.addEdge(3, 0);
+        graph.addEdge(2, 4);
 
-		boolean[] visited = new boolean[v];
+        System.out.println(graph);
+
+        boolean[] visited = new boolean[v];
 //		Stack<Integer> s = new Stack<>();
 //		visited[source] = true;
 //		s.push(source);
@@ -36,16 +36,16 @@ public class DFS {
 //				}
 //			}
 //		}
-		dfs(source, visited);
-	}
-	
-	public static void dfs(int s, boolean[] visited) {
-		visited[s]=true;
-		System.out.print(s + " ");
-		for (int w  : graph.adjacencyList[s]) {
-			if(!visited[w])
-			dfs(w, visited);
-		}
-	}
+        dfs(source, visited);
+    }
+
+    public static void dfs(int s, boolean[] visited) {
+        visited[s] = true;
+        System.out.print(s + " ");
+        for (int w : graph.adjacencyList[s]) {
+            if (!visited[w])
+                dfs(w, visited);
+        }
+    }
 
 }

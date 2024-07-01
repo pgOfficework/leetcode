@@ -13,14 +13,14 @@ public class RemoveDuplicatesRromSortedArrayII {
         return j;
     }
 
-    public static void leftShift(int[] arr, int index,int d) {
-        for (int i = index-d; index < arr.length; i++) {
+    public static void leftShift(int[] arr, int index, int d) {
+        for (int i = index - d; index < arr.length; i++) {
             arr[i] = arr[index++];
         }
     }
 
     public static void main(String[] args) {
-        int[] nums1 = {0,0,1,1,1,1,2,3,3};//0,0,1,1,1,1,2,3,3
+        int[] nums1 = {0, 0, 1, 1, 1, 1, 2, 3, 3};//0,0,1,1,1,1,2,3,3
 
         System.out.println(removeDuplicates(nums1));
 

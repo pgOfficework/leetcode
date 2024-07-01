@@ -16,7 +16,7 @@ public class MergeSort {
 
 
     private void sort(int[] arr, int l, int mid, int r) {
-        int n1 = mid - l+1;
+        int n1 = mid - l + 1;
         int n2 = r - mid;
 
         int L[] = new int[n1];
@@ -27,28 +27,27 @@ public class MergeSort {
         for (int i = 0; i < n2; i++)
             R[i] = arr[mid + 1 + i];
 
-        int i=0;
-        int j=0;
-        int k=l;
-        while (i<n1 && j<n2){
-            if (L[i]<R[j]){
-                arr[k]=L[i];
+        int i = 0;
+        int j = 0;
+        int k = l;
+        while (i < n1 && j < n2) {
+            if (L[i] < R[j]) {
+                arr[k] = L[i];
                 i++;
-            }
-            else {
-                arr[k]=R[j];
+            } else {
+                arr[k] = R[j];
                 j++;
             }
             k++;
         }
 
-        while (i<n1){
-            arr[k]=L[i];
+        while (i < n1) {
+            arr[k] = L[i];
             i++;
             k++;
         }
-        while (j<n2){
-            arr[k]=R[j];
+        while (j < n2) {
+            arr[k] = R[j];
             j++;
             k++;
         }

@@ -72,48 +72,48 @@ Discussion | Solution
 
 Code Now*/
 public class IntersectionOfTwoLinkedLists {
-	public static ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+    public static ListNode getIntersectionNode(ListNode headA, ListNode headB) {
 
-		HashSet<ListNode> set = new HashSet<>();
+        HashSet<ListNode> set = new HashSet<>();
 
-		while (headA != null) {
-			set.add(headA);
-			headA = headA.next;
-		}
+        while (headA != null) {
+            set.add(headA);
+            headA = headA.next;
+        }
 
-		while (headB != null) {
-			if (set.contains(headB)) {
-				return headB;
-			}
-			headB = headB.next;
+        while (headB != null) {
+            if (set.contains(headB)) {
+                return headB;
+            }
+            headB = headB.next;
 
-		}
+        }
 
-		return null;
+        return null;
 
-	}
+    }
 
-	public static void main(String[] args) {
-		ListNode headA1 = new ListNode(4);
-		ListNode headA2 = new ListNode(1);
-		ListNode headA3 = new ListNode(8);
-		ListNode headA4 = new ListNode(4);
-		ListNode headA5 = new ListNode(5);
-		ListNode headA6 = new ListNode(5);
-		ListNode headA7 = new ListNode(6);
-		ListNode headA8 = new ListNode(1);
+    public static void main(String[] args) {
+        ListNode headA1 = new ListNode(4);
+        ListNode headA2 = new ListNode(1);
+        ListNode headA3 = new ListNode(8);
+        ListNode headA4 = new ListNode(4);
+        ListNode headA5 = new ListNode(5);
+        ListNode headA6 = new ListNode(5);
+        ListNode headA7 = new ListNode(6);
+        ListNode headA8 = new ListNode(1);
 
-		headA1.next = headA2;
-		headA2.next = headA3;
-		headA3.next = headA4;
-		headA4.next = headA5;
+        headA1.next = headA2;
+        headA2.next = headA3;
+        headA3.next = headA4;
+        headA4.next = headA5;
 
-		headA6.next = headA7;
-		headA7.next = headA8;
-		headA8.next = headA3;
+        headA6.next = headA7;
+        headA7.next = headA8;
+        headA8.next = headA3;
 
-		getIntersectionNode(headA1, headA6);
+        getIntersectionNode(headA1, headA6);
 
-	}
+    }
 
 }

@@ -29,58 +29,57 @@ The number of nodes in the list is in the range [0, 104].
 1 <= Node.val <= 50
 0 <= val <= 50*/
 public class RemoveLinkedListElements {
-	
-public static ListNode removeElements(ListNode head, int val) {
-		
-	if(head==null) return head;
-	
-		while(head!=null && head.val==val) {
-			if(head.next==null)
-				return null;
-				head=head.next;
-			
-		}
-		
-		ListNode current=head;
-		
-		while (current.next!=null) {
 
-			if(current.next.val!=val) {
-				current=current.next;
-			}
-			else {
-				current.next=current.next.next;
-			}
-		}
-		
+    public static ListNode removeElements(ListNode head, int val) {
+
+        if (head == null) return head;
+
+        while (head != null && head.val == val) {
+            if (head.next == null)
+                return null;
+            head = head.next;
+
+        }
+
+        ListNode current = head;
+
+        while (current.next != null) {
+
+            if (current.next.val != val) {
+                current = current.next;
+            } else {
+                current.next = current.next.next;
+            }
+        }
+
         return head;
     }
 
-	public static void main(String[] args) {
-		ListNode headA1 = new ListNode(1);
-		ListNode headA2 = new ListNode(1);
-		ListNode headA3 = new ListNode(8);
-		ListNode headA4 = new ListNode(4);
-		ListNode headA5 = new ListNode(1);
-		ListNode headA6 = new ListNode(5);
-		ListNode headA7 = new ListNode(6);
-		ListNode headA8 = new ListNode(1);
-		
-		headA1.next=headA2;
-		headA2.next=headA3;
-		headA3.next=headA4;
-		headA4.next=headA5;
-		headA5.next=headA6;
-		headA6.next=headA7;
-		headA7.next=headA8;
-		
-		headA1= removeElements(headA1, 1);
-//		System.out.println(headA1==null);
-		while (headA1!=null) {
-			System.out.println(headA1.val);
-			headA1=headA1.next;
-		}
+    public static void main(String[] args) {
+        ListNode headA1 = new ListNode(1);
+        ListNode headA2 = new ListNode(1);
+        ListNode headA3 = new ListNode(8);
+        ListNode headA4 = new ListNode(4);
+        ListNode headA5 = new ListNode(1);
+        ListNode headA6 = new ListNode(5);
+        ListNode headA7 = new ListNode(6);
+        ListNode headA8 = new ListNode(1);
 
-	}
+        headA1.next = headA2;
+        headA2.next = headA3;
+        headA3.next = headA4;
+        headA4.next = headA5;
+        headA5.next = headA6;
+        headA6.next = headA7;
+        headA7.next = headA8;
+
+        headA1 = removeElements(headA1, 1);
+//		System.out.println(headA1==null);
+        while (headA1 != null) {
+            System.out.println(headA1.val);
+            headA1 = headA1.next;
+        }
+
+    }
 
 }

@@ -8,60 +8,61 @@ package linkedList;
 import easy.ListNode;
 
 // @lc code=start
+
 /**
  * Definition for singly-linked list. class ListNode { int val; ListNode next;
  * ListNode(int x) { val = x; next = null; } }
  */
 public class LinkedListCycle {
-	public static boolean hasCycle(ListNode head) {
+    public static boolean hasCycle(ListNode head) {
 
-		if (head.next == null) {
-			return false;
-		}
-		if (head.next.next == null) {
-			return false;
-		}
+        if (head.next == null) {
+            return false;
+        }
+        if (head.next.next == null) {
+            return false;
+        }
 
-		ListNode slow = head.next;
-		ListNode fast = head.next.next;
-		if (slow == fast)
-			return true;
+        ListNode slow = head.next;
+        ListNode fast = head.next.next;
+        if (slow == fast)
+            return true;
 
-		while (true) {
-			if (slow == fast) {
-				return true;
-			} else {
+        while (true) {
+            if (slow == fast) {
+                return true;
+            } else {
 
-				if (slow.next == null) {
-					return false;
-				} else {
-					slow = slow.next;
-				}
-				if (fast.next.next == null) {
-					return false;
-				} else {
-					fast = fast.next.next;
-				}
-			}
-		}
+                if (slow.next == null) {
+                    return false;
+                } else {
+                    slow = slow.next;
+                }
+                if (fast.next.next == null) {
+                    return false;
+                } else {
+                    fast = fast.next.next;
+                }
+            }
+        }
 
-	}
+    }
 
-	public static void main(String[] args) {
-		ListNode l1 = new ListNode(1); // listA = [4,1,8,4,5], listB = [5,6,1,8,4,5],
-		ListNode l2 = new ListNode(1);
-		ListNode l3 = new ListNode(2);
-		ListNode l4 = new ListNode(2);
-		ListNode l5 = new ListNode(3);
+    public static void main(String[] args) {
+        ListNode l1 = new ListNode(1); // listA = [4,1,8,4,5], listB = [5,6,1,8,4,5],
+        ListNode l2 = new ListNode(1);
+        ListNode l3 = new ListNode(2);
+        ListNode l4 = new ListNode(2);
+        ListNode l5 = new ListNode(3);
 
-		l1.next = l2;
-		l2.next = l3;
-		l3.next = l4;
-		l4.next = l5;
+        l1.next = l2;
+        l2.next = l3;
+        l3.next = l4;
+        l4.next = l5;
 
-		hasCycle(l1);
+        hasCycle(l1);
 
-		System.out.println();
+        System.out.println();
 
 //		while (true) {
 //			System.out.println(head.val);
@@ -72,6 +73,6 @@ public class LinkedListCycle {
 //			}
 //		}
 
-	}
+    }
 }
 // @lc code=end

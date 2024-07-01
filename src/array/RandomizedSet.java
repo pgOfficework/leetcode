@@ -8,13 +8,13 @@ public class RandomizedSet {
     List<Integer> arr;
 
     public RandomizedSet() {
-        set=new LinkedHashSet<>();
+        set = new LinkedHashSet<>();
         rndm = new Random();
-        arr=new ArrayList<>();
+        arr = new ArrayList<>();
     }
 
     public boolean insert(int val) {
-        if (!set.contains(val)){
+        if (!set.contains(val)) {
             set.add(val);
             arr.add(val);
             return true;
@@ -23,7 +23,7 @@ public class RandomizedSet {
     }
 
     public boolean remove(int val) {
-        if (set.contains(val)){
+        if (set.contains(val)) {
             set.remove(val);
             return true;
         }
@@ -36,17 +36,17 @@ public class RandomizedSet {
     }
 
     public static void main(String[] args) {
-        RandomizedSet randomizedSet=new RandomizedSet();
+        RandomizedSet randomizedSet = new RandomizedSet();
 
-        String[] input={"RandomizedSet","insert","remove","insert","getRandom","remove","insert","getRandom"};
-        int[] inputValue={1,2,2,1,2};
-        int i=0;
+        String[] input = {"RandomizedSet", "insert", "remove", "insert", "getRandom", "remove", "insert", "getRandom"};
+        int[] inputValue = {1, 2, 2, 1, 2};
+        int i = 0;
 
 
-        System.out.println(randomizedSet.set+"===="+randomizedSet.set.contains(3));
+        System.out.println(randomizedSet.set + "====" + randomizedSet.set.contains(3));
 
-        for (String s:input){
-            switch (s){
+        for (String s : input) {
+            switch (s) {
                 case "RandomizedSet":
                     break;
                 case "insert":

@@ -10,8 +10,8 @@ public class TrieTest {
     public static void main(String[] args) {
         TrieTest trie = new TrieTest();
 
-        List<String> inputList=List.of("Prathame@@sh","pr7atik","pat--ric","pat","java");
-        for (String s: inputList){
+        List<String> inputList = List.of("Prathame@@sh", "pr7atik", "pat--ric", "pat", "java");
+        for (String s : inputList) {
             trie.insert(s.toLowerCase().replaceAll("[^a-zA-Z]", ""));
         }
         System.out.println();
@@ -36,7 +36,7 @@ public class TrieTest {
         char c = word.charAt(0);
         if (c == '-' || c == '.' || c == ',') return true;
         if (node.contains(c)) return false;
-        
+
         return search(word.substring(1), node.get(c));
     }
 
@@ -54,7 +54,7 @@ public class TrieTest {
 
     }
 
-    public List<String> autoComplete( String prefix) {
+    public List<String> autoComplete(String prefix) {
         List<String> results = new ArrayList<>();
         TrieNode node = root;
 

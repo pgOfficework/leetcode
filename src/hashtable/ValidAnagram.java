@@ -5,17 +5,16 @@ public class ValidAnagram {
 
         int[] alphabet = new int[26];
 
-        if(s.length()!=t.length()) return false;
+        if (s.length() != t.length()) return false;
 
         for (char c : s.toCharArray())
             alphabet[c - 'a']++;
 
         for (char c : t.toCharArray()) {
-            if (alphabet[c-'a']==0)
+            if (alphabet[c - 'a'] == 0)
                 return false;
-            alphabet[c-'a']--;
+            alphabet[c - 'a']--;
         }
-
 
 
         return true;

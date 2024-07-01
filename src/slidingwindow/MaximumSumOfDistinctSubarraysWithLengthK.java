@@ -37,7 +37,7 @@ public class MaximumSumOfDistinctSubarraysWithLengthK {
 
     public static void main(String[] args) {
 
-        int[] array = {3,2,3,1};
+        int[] array = {3, 2, 3, 1};
         int num = 3;
         System.out.println("maximumSubarraySum - " + maximumSubarraySum(array, num));
 

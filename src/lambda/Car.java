@@ -1,6 +1,6 @@
 package lambda;
 
-@FunctionalInterface	
+@FunctionalInterface
 public interface Car {
-	public String book(String source, String destination);
+    public String book(String source, String destination);
 }

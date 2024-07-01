@@ -1,5 +1,4 @@
 
 *.pb
 *.pb
-/out
-/.idea
+/src/out

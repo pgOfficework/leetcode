@@ -5,10 +5,10 @@ public class Thread1 extends Thread {
 //		System.out.println("in thread 1");
 //	}
 
-	public static void main(String[] args) {
-		Thread1 thread=new Thread1();
-		thread.start();
+    public static void main(String[] args) {
+        Thread1 thread = new Thread1();
+        thread.start();
 
-	}
+    }
 
 }

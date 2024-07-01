@@ -1,4 +1,5 @@
 package string;
+
 //392
 public class IsSubsequence {
     public static boolean isSubsequence(String s, String t) {
@@ -7,10 +8,10 @@ public class IsSubsequence {
             return true;
         if (t.isEmpty())
             return false;
-        int i=0;
-        int j=0;
-        while (i<t.length() && j<s.length()){
-            if (t.charAt(i)==s.charAt(j)){
+        int i = 0;
+        int j = 0;
+        while (i < t.length() && j < s.length()) {
+            if (t.charAt(i) == s.charAt(j)) {
                 j++;
             }
             i++;

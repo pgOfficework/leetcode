@@ -16,8 +16,7 @@ public class N02NumberToWord {
                 System.out.println(threeDigit(num));
             } else if (length == 4) {
                 System.out.println(fourDigit(num));
-            }
-            else {
+            } else {
                 System.out.println("Given number has more tha 4 digits");
             }
 
@@ -27,7 +26,7 @@ public class N02NumberToWord {
 
     static String oneDigit(char num) {
         if (num != 0) {
-            String[] oneDigit = { "Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine" };
+            String[] oneDigit = {"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
             return oneDigit[num - '0'];
         } else
             return "";
@@ -36,12 +35,12 @@ public class N02NumberToWord {
     static String twoDigit(char[] num) {
         String res = "";
         if (num[num.length - 2] == '1') {
-            String[] elevenToNinteen = { "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen",
-                    "Seventeen", "Eighteen", "Ninteen" };
+            String[] elevenToNinteen = {"Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen",
+                    "Seventeen", "Eighteen", "Ninteen"};
             return elevenToNinteen[num[1] - '0'];
         } else if (num[num.length - 2] != '0') {
 
-            String[] tenthDigit = { "Twenty", "Thirthy", "Fourty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninty" };
+            String[] tenthDigit = {"Twenty", "Thirthy", "Fourty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninty"};
             return tenthDigit[num[num.length - 2] - '2'] + " " + oneDigit(num[num.length - 1]);
         }
         return res;
@@ -55,7 +54,7 @@ public class N02NumberToWord {
 
     static String fourDigit(char[] num) {
         return oneDigit(num[0]) + " " + "Thousand" + " " + threeDigit(num);
-       
+
 
     }
 

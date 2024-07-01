@@ -25,50 +25,50 @@ num1 and num2 consist of digits only.
 Both num1 and num2 do not contain any leading zero, except the number 0 itself.*/
 public class MultiplyStrings {
 
-	public String multiply(String num1, String num2) {
-		int l1=num1.length();
-		int l2=num2.length();
-		
-		int[] n1 = new int[l1];
-		int[] n2 = new int[l2];
+    public String multiply(String num1, String num2) {
+        int l1 = num1.length();
+        int l2 = num2.length();
 
-		for (int i = 0; i < l1; i++) {
-			n1[i] = num1.charAt(l1 - 1 - i) - '0';
-			System.out.println(n1[i]);
-		}
+        int[] n1 = new int[l1];
+        int[] n2 = new int[l2];
 
-		for (int i = 0; i < l2; i++) {
-			n2[i] = num2.charAt(l2 - 1 - i) - '0';
-		}
+        for (int i = 0; i < l1; i++) {
+            n1[i] = num1.charAt(l1 - 1 - i) - '0';
+            System.out.println(n1[i]);
+        }
 
-		int[] result = new int[l1 + l2];
+        for (int i = 0; i < l2; i++) {
+            n2[i] = num2.charAt(l2 - 1 - i) - '0';
+        }
 
-		for (int i = 0; i < l1; i++) {
-			int carry = 0;
-			for (int j = 0; j < l2; j++) {
-				int product = n1[i] * n2[j] + carry + result[i + j];
-				carry = product / 10;
-				result[i + j] = product % 10;
-			}
-			result[i + l1] = carry;
-		}
+        int[] result = new int[l1 + l2];
 
-		StringBuilder sb = new StringBuilder();
-		int i = result.length - 1;
-		while (i > 0 && result[i] == 0) {
-			i--;
-		}
-		while (i >= 0) {
-			sb.append(result[i--]);
-		}
+        for (int i = 0; i < l1; i++) {
+            int carry = 0;
+            for (int j = 0; j < l2; j++) {
+                int product = n1[i] * n2[j] + carry + result[i + j];
+                carry = product / 10;
+                result[i + j] = product % 10;
+            }
+            result[i + l1] = carry;
+        }
 
-		return sb.toString();
-	}
+        StringBuilder sb = new StringBuilder();
+        int i = result.length - 1;
+        while (i > 0 && result[i] == 0) {
+            i--;
+        }
+        while (i >= 0) {
+            sb.append(result[i--]);
+        }
 
-	public static void main(String[] args) {
-		MultiplyStrings obj = new MultiplyStrings();
-		System.out.println(obj.multiply("498828660196", "840477629533"));
+        return sb.toString();
+    }
 
-	}
+    public static void main(String[] args) {
+        MultiplyStrings obj = new MultiplyStrings();
+        System.out.println(obj.multiply("498828660196", "840477629533"));
+
+    }
 
 }

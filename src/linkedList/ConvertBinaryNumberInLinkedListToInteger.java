@@ -33,30 +33,30 @@ The Linked List is not empty.
 Number of nodes will not exceed 30.
 Each node's value is either 0 or 1.
 */public class ConvertBinaryNumberInLinkedListToInteger {
-	
-	public static int getDecimalValue(ListNode head) {
-		
-		StringBuilder str =new StringBuilder();
-		do{
-			str.append(head.val);
-			head=head.next;
-		}while (head!=null);
-		return Integer.parseInt(str.toString(),2);
 
-	}
+    public static int getDecimalValue(ListNode head) {
 
-	public static void main(String[] args) {
-		ListNode headA1 = new ListNode(1);
-		ListNode headA2 = new ListNode(0);
-		ListNode headA3 = new ListNode(1);
-		ListNode headA4 = new ListNode(0);
-		
-		headA1.next = headA2;
-		headA2.next = headA3;
-		headA3.next = headA4;
-		
-		System.out.println(getDecimalValue(headA1));
+        StringBuilder str = new StringBuilder();
+        do {
+            str.append(head.val);
+            head = head.next;
+        } while (head != null);
+        return Integer.parseInt(str.toString(), 2);
 
-	}
+    }
+
+    public static void main(String[] args) {
+        ListNode headA1 = new ListNode(1);
+        ListNode headA2 = new ListNode(0);
+        ListNode headA3 = new ListNode(1);
+        ListNode headA4 = new ListNode(0);
+
+        headA1.next = headA2;
+        headA2.next = headA3;
+        headA3.next = headA4;
+
+        System.out.println(getDecimalValue(headA1));
+
+    }
 
 }

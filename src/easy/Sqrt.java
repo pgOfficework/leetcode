@@ -15,33 +15,34 @@ public class Sqrt {
     }
 
     public static int mySqrt(int x) {
-        int sqrt=1;
-        int rem=0;
-        for (int i = 1; i < x/2; i++) {    //16=4x4 
-            sqrt=i*i;
-            System.out.println("i : "+sqrt);
-            if (sqrt==x) {
+        int sqrt = 1;
+        int rem = 0;
+        for (int i = 1; i < x / 2; i++) {    //16=4x4
+            sqrt = i * i;
+            System.out.println("i : " + sqrt);
+            if (sqrt == x) {
                 return i;
             }
-             if (sqrt > x) {
-            // found left part of decimal
-            return sqrt(x, i - 1, i);
-        }
+            if (sqrt > x) {
+                // found left part of decimal
+                return sqrt(x, i - 1, i);
+            }
         }
         return x;
     }
-    private static int sqrt(int X, int low, int high) {
-    int mid = (low + high) / 2;
-    double p = mid * mid;
-    // uncomment below line to see how we reach the final answer
-    // System.out.println(low + " " + high + " " + mid + " " + p);
 
-    if (p == X ) {
-        return mid;
+    private static int sqrt(int X, int low, int high) {
+        int mid = (low + high) / 2;
+        double p = mid * mid;
+        // uncomment below line to see how we reach the final answer
+        // System.out.println(low + " " + high + " " + mid + " " + p);
+
+        if (p == X) {
+            return mid;
+        }
+        if (p < X) {
+            return sqrt(X, mid, high);
+        }
+        return sqrt(X, low, mid);
     }
-    if (p < X) {
-        return sqrt(X, mid, high);
-    }
-    return sqrt(X, low, mid);
-}
 }

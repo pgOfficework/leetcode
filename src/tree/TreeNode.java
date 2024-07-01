@@ -1,19 +1,23 @@
 package tree;
 
 public class TreeNode {
-	int val;
-	TreeNode left = null;
-	TreeNode right = null;
-	
-	TreeNode() {};
-	TreeNode(int val, TreeNode left, TreeNode right) {
-		this.val = val;
-		this.left = left;
-		this.right = right;
-		     }
+    int val;
+    TreeNode left = null;
+    TreeNode right = null;
 
-	public TreeNode(int data) {
-		this.val = data;
-	}
+    TreeNode() {
+    }
+
+    ;
+
+    TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
+
+    public TreeNode(int data) {
+        this.val = data;
+    }
 
 }

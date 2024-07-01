@@ -9,7 +9,7 @@ public class A06RandomNumber {
         System.out.println(Math.random());
 
         //Using the Random Class
-        Random random=new Random();
+        Random random = new Random();
         System.out.println(random.nextInt(50));
 
         //Using the ThreadLocalRandom Class

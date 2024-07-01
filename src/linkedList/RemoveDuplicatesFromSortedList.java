@@ -8,55 +8,55 @@ import easy.ListNode;
 Output: [1,2,3]*/
 public class RemoveDuplicatesFromSortedList {
 
-	public static void main(String[] args) {
-		ListNode l1 = new ListNode(1); // listA = [4,1,8,4,5], listB = [5,6,1,8,4,5],
-		ListNode l2 = new ListNode(1);
-		ListNode l3 = new ListNode(2);
-		ListNode l4 = new ListNode(2);
-		ListNode l5 = new ListNode(3);
+    public static void main(String[] args) {
+        ListNode l1 = new ListNode(1); // listA = [4,1,8,4,5], listB = [5,6,1,8,4,5],
+        ListNode l2 = new ListNode(1);
+        ListNode l3 = new ListNode(2);
+        ListNode l4 = new ListNode(2);
+        ListNode l5 = new ListNode(3);
 
-		l1.next = l2;
-		l2.next = l3;
-		l3.next = l4;
-		l4.next = l5;
+        l1.next = l2;
+        l2.next = l3;
+        l3.next = l4;
+        l4.next = l5;
 
-		ListNode head = deleteDuplicates(l1);
+        ListNode head = deleteDuplicates(l1);
 
-		System.out.println();
+        System.out.println();
 
-		while (true) {
-			System.out.println(head.val);
-			head = head.next;
-			if (head.next == null) {
-				System.out.println(head.val);
-				break;
-			}
-		}
+        while (true) {
+            System.out.println(head.val);
+            head = head.next;
+            if (head.next == null) {
+                System.out.println(head.val);
+                break;
+            }
+        }
 
-	}
+    }
 
-	public static ListNode deleteDuplicates(ListNode head) {
-		
-		if(head==null) {
-			return head;
-		}
+    public static ListNode deleteDuplicates(ListNode head) {
 
-		ListNode start = head;
-		
+        if (head == null) {
+            return head;
+        }
 
-		do {
-			if (head.val == head.next.val && head.next.next != null) {
-				head.next = head.next.next;
+        ListNode start = head;
 
-			} else if (head.val == head.next.val) {
-				head.next = null;
-				return start;
-			} else {
-				head = head.next;
-			}
-		} while (head.next != null);
-		return start;
 
-	}
+        do {
+            if (head.val == head.next.val && head.next.next != null) {
+                head.next = head.next.next;
+
+            } else if (head.val == head.next.val) {
+                head.next = null;
+                return start;
+            } else {
+                head = head.next;
+            }
+        } while (head.next != null);
+        return start;
+
+    }
 
 }

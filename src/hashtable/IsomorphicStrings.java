@@ -7,14 +7,14 @@ import java.util.Map;
 public class IsomorphicStrings {
     public static boolean isIsomorphic(String s, String t) {
 
-        Map<Character,Character> map=new HashMap<>();
+        Map<Character, Character> map = new HashMap<>();
 
-        int [] arrS=new int[26];
-        int [] arrT=new int[26];
+        int[] arrS = new int[26];
+        int[] arrT = new int[26];
 
-        int i=0;
+        int i = 0;
 
-        while (i<s.length()) {
+        while (i < s.length()) {
             if (arrS[s.charAt(i) - 'a'] != 0) {
                 if (arrS[s.charAt(i) - 'a'] != t.charAt(i)) {
                     return false;

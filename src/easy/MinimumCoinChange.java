@@ -12,13 +12,13 @@ public class MinimumCoinChange {
         int count = 0;
 
         count += num / 25;
-        num%=25;
+        num %= 25;
 
         count += num / 10;
-        num%=10;
+        num %= 10;
 
         count += num / 5;
-        num%=5;
+        num %= 5;
 
         count += num;
 

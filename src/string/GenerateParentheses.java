@@ -22,36 +22,36 @@ Constraints:
 1 <= n <= 8 */
 public class GenerateParentheses {
 
-	public List<String> generateParenthesis(int n) {
-		List<String> list = new ArrayList<String>();
+    public List<String> generateParenthesis(int n) {
+        List<String> list = new ArrayList<String>();
 
-		helper(list, "", n, n);
-		return list;
+        helper(list, "", n, n);
+        return list;
 
-	}
+    }
 
-	private void helper(List<String> list, String string, int left, int right) {
+    private void helper(List<String> list, String string, int left, int right) {
 
-		if (left < 0 || left > right) {
-			return;
-		}
-		if (left == 0 && right == 0) {
-			list.add(string);
-			return;
-		}
-		helper(list, string + "(", left - 1, right);
-		helper(list, string + ")", left, right - 1);
+        if (left < 0 || left > right) {
+            return;
+        }
+        if (left == 0 && right == 0) {
+            list.add(string);
+            return;
+        }
+        helper(list, string + "(", left - 1, right);
+        helper(list, string + ")", left, right - 1);
 
-	}
+    }
 
-	public static void main(String[] args) {
-		GenerateParentheses obj = new GenerateParentheses();
-		List<String> list = obj.generateParenthesis(3);
+    public static void main(String[] args) {
+        GenerateParentheses obj = new GenerateParentheses();
+        List<String> list = obj.generateParenthesis(3);
 
-		for (String string : list) {
-			System.out.println(string);
-		}
+        for (String string : list) {
+            System.out.println(string);
+        }
 
-	}
+    }
 
 }

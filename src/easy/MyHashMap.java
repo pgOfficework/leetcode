@@ -5,20 +5,20 @@ import java.util.List;
 
 public class MyHashMap {
 
-    List<Integer>list=new ArrayList<>();
-    
+    List<Integer> list = new ArrayList<>();
+
     public MyHashMap() {
-        
+
     }
-    
+
     public void put(int key, int value) {
-        list.add(key, value+1);
+        list.add(key, value + 1);
     }
-    
+
     public int get(int key) {
-       return list.get(key)-1;
+        return list.get(key) - 1;
     }
-    
+
     public void remove(int key) {
         list.add(key, 0);
     }

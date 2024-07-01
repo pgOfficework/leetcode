@@ -1,4 +1,5 @@
 package practice;
+
 /* Suppose, we have to check the number (n) 145 is Peterson or not.
 
 Number = 145
