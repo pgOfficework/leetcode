@@ -1,8 +1,0 @@
-
-
-java:S1854
-"7Remove this useless assignment to local variable "map".(¹¬âúÿÿÿÿ8öîÊñ†2J$162b48fe-8378-4a5f-b831-551e10717fbf
-p
-java:S1481
-"(Remove this unused "map" local variable.(¹¬âúÿÿÿÿ8÷îÊñ†2J$a71cd7c1-5de7-4ace-a349-c94d83599824
-~	java:S125 "<This block of commented-out lines of code should be removed.(Äöö8øîÊñ†2J$a57fd4d1-3c04-4651-a5fd-3cde3bcff66d
