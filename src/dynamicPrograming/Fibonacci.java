@@ -4,15 +4,16 @@ public class Fibonacci {
     static long[] fibCache;
 
     public static void main(String[] args) {
-        int n = 92;
+        int n = 9;
         fibCache = new long[n + 1];
         long start = System.currentTimeMillis();
         System.out.println(fibonacci(n));
-        System.out.println(Math.abs(System.currentTimeMillis() - start));
+      //  System.out.println(Math.abs(System.currentTimeMillis() - start));
 
     }
 
     private static long fibonacci(int n) {
+
         if (n <= 1) {
             return n;
         }
@@ -20,6 +21,7 @@ public class Fibonacci {
             return fibCache[n];
         }
         long nTheFibNumber = fibonacci(n - 1) + fibonacci(n - 2);
+       // System.out.println(nTheFibNumber);
         fibCache[n] = nTheFibNumber;
         return nTheFibNumber;
 

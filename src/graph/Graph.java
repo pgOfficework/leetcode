@@ -1,22 +1,9 @@
 package graph;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.List;
 
 public class Graph {
 
-    // Adjacency Matrix
-//	private int adjacencyMatrix[][];
-//
-//	public Graph(int v, int u) {
-//		this.adjacencyMatrix = new int[v][v];
-//	}
-//
-//	public void addEdges(int v, int e) {
-//		this.adjacencyMatrix[v][e] = 1;
-//		this.adjacencyMatrix[e][v] = 1;
-//	}
 
     // Adjacency List
     LinkedList<Integer>[] adjacencyList;

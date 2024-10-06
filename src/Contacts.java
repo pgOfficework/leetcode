@@ -1,7 +1,5 @@
 import java.io.*;
 import java.util.*;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 class Result {
     static class Node {

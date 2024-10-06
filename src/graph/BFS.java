@@ -11,9 +11,9 @@ public class BFS {
 
         Graph graph = new Graph(v);
         graph.addEdge(0, 1);
-        graph.addEdge(1, 2);
-        graph.addEdge(2, 3);
-        graph.addEdge(3, 0);
+        graph.addEdge(0, 2);
+        graph.addEdge(1, 3);
+        graph.addEdge(1, 4);
         graph.addEdge(2, 4);
 
         System.out.println(graph);
@@ -21,7 +21,7 @@ public class BFS {
         boolean[] visited = new boolean[v];
         Queue<Integer> q = new LinkedList<>();
         visited[source] = true;
-        q.offer(source);
+        q.add(source);
 
         while (!q.isEmpty()) {
             int u = q.poll();

@@ -8,7 +8,7 @@ public class BalancedBrackets {
 
         String s = "()[{}()]([[][]()[[]]]{()})([]()){[]{}}{{}}{}(){([[{}([]{})]])}";
 
-        if (null == s || ((s.length() % 2) != 0)) {
+        if (s == null || ((s.length() % 2) != 0)) {
             System.out.println("No1");
         } else {
             char[] ch = s.toCharArray();

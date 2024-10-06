@@ -22,30 +22,30 @@ public class DFS {
         System.out.println(graph);
 
         boolean[] visited = new boolean[v];
-//		Stack<Integer> s = new Stack<>();
-//		visited[source] = true;
-//		s.push(source);
+		Stack<Integer> s = new Stack<>();
+		visited[source] = true;
+		s.push(source);
 
-//		while (!s.isEmpty()) {
-//			int u = s.pop();
-//			System.out.print(u + " ");
-//			for (int val : graph.adjacencyList[u]) {
-//				if (!visited[val]) {
-//					visited[val] = true;
-//					s.push(val);
-//				}
-//			}
-//		}
-        dfs(source, visited);
+		while (!s.isEmpty()) {
+			int u = s.pop();
+			System.out.print(u + " ");
+			for (int val : graph.adjacencyList[u]) {
+				if (!visited[val]) {
+					visited[val] = true;
+					s.push(val);
+				}
+			}
+		}
+   //     dfs(source, visited);
     }
 
-    public static void dfs(int s, boolean[] visited) {
-        visited[s] = true;
-        System.out.print(s + " ");
-        for (int w : graph.adjacencyList[s]) {
-            if (!visited[w])
-                dfs(w, visited);
-        }
-    }
+//    public static void dfs(int s, boolean[] visited) {
+//        visited[s] = true;
+//        System.out.print(s + " ");
+//        for (int w : graph.adjacencyList[s]) {
+//            if (!visited[w])
+//                dfs(w, visited);
+//        }
+//    }
 
 }

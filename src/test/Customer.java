@@ -10,6 +10,9 @@ public class Customer {
         this.email = email;
         this.name = name;
     }
+    public Customer(String name) {
+        this.name = name;
+    }
 
     public Customer() {
     }

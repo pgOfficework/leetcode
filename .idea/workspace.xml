@@ -4,7 +4,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80878a3a-924e-4ae7-a18d-2d175c62dce9" name="Changes" comment="fix" />
+    <list default="true" id="80878a3a-924e-4ae7-a18d-2d175c62dce9" name="Changes" comment="fix">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IBM/CodingTestAptio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IBM/Line1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IBM/TestHCL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ContainerWithMostWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/ReverseInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/matrix/Multiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/ComparatorComparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/MapCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/ParallelStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/ReduceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/Sorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/comparator/EmployeeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/comparator/SortingMultipleAttributesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/comparator/comparators/EmployeeAgeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/comparator/comparators/EmployeeChainedComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/comparator/comparators/EmployeeJobTitleComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/comparator/comparators/EmployeeSalaryComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/AngramList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/MapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/BalancedBrackets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/BalancedBrackets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Contacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/Contacts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Result$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/Result$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/array/SortArray0_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/array/SortArray0_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/dynamicPrograming/Fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/dynamicPrograming/Fibonacci.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/graph/BFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/graph/BFS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/graph/DFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/graph/DFS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/graph/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/graph/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/streams/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/streams/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/streams/MapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/streams/MapTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/test/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/test/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BalancedBrackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BalancedBrackets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Contacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contacts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/SortArray0_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/SortArray0_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dynamicPrograming/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamicPrograming/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/BFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/DFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/MapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Customer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,33 +80,70 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AngramList.executor": "Run",
+    "Application.BFS.executor": "Run",
+    "Application.BalancedBrackets.executor": "Run",
+    "Application.CodingTestAptio (1).executor": "Run",
+    "Application.CodingTestAptio.executor": "Run",
+    "Application.ComparatorComparable.executor": "Run",
+    "Application.ContainerWithMostWater.executor": "Run",
+    "Application.DFS.executor": "Run",
+    "Application.Fibonacci.executor": "Run",
+    "Application.FlatmapTest.executor": "Run",
     "Application.IsSubsequence.executor": "Run",
     "Application.IsomorphicStrings.executor": "Run",
     "Application.JumpGame.executor": "Run",
+    "Application.MapCollection.executor": "Run",
+    "Application.MapTest.executor": "Run",
     "Application.MinimumCoinChange.executor": "Run",
+    "Application.Multiplication.executor": "Run",
+    "Application.ParallelStream.executor": "Run",
     "Application.RandomizedSet.executor": "Run",
     "Application.RansomNote.executor": "Run",
+    "Application.ReduceDemo.executor": "Run",
+    "Application.ReverseInteger.executor": "Run",
+    "Application.SortArray0_1.executor": "Run",
+    "Application.Sorting.executor": "Run",
+    "Application.SortingMultipleAttributesExample.executor": "Run",
+    "Application.TestHCL.executor": "Run",
     "Application.ValidAnagram.executor": "Run",
     "Application.ValidPalindrome.executor": "Run",
     "Application.WordPattern.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Java Scratch.MaximumProductSubarray.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "D:/git/leetcode",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ValidAnagram">
-    <configuration name="IsSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.IsSubsequence" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git\leetcode\src\externalJARS" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ContainerWithMostWater">
+    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ContainerWithMostWater" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsomorphicStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashtable.IsomorphicStrings" />
+    <configuration name="FlatmapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.FlatmapTest" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashtable.*" />
+          <option name="PATTERN" value="streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RansomNote" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.RansomNote" />
+    <configuration name="ReduceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.ReduceDemo" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidAnagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashtable.ValidAnagram" />
+    <configuration name="ReverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.ReverseInteger" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashtable.*" />
+          <option name="PATTERN" value="easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashtable.WordPattern" />
+    <configuration name="TestHCL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IBM.TestHCL" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashtable.*" />
+          <option name="PATTERN" value="IBM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ValidAnagram" />
-        <item itemvalue="Application.WordPattern" />
-        <item itemvalue="Application.IsomorphicStrings" />
-        <item itemvalue="Application.RansomNote" />
-        <item itemvalue="Application.IsSubsequence" />
+        <item itemvalue="Application.ContainerWithMostWater" />
+        <item itemvalue="Application.ReverseInteger" />
+        <item itemvalue="Application.ReduceDemo" />
+        <item itemvalue="Application.FlatmapTest" />
+        <item itemvalue="Application.TestHCL" />
       </list>
     </recent_temporary>
   </component>

@@ -3,16 +3,7 @@ package streams;
 import java.util.*;
 import java.util.stream.Collectors;
 
-class Employee {
-    int salary;
-    String name;
 
-    public Employee(int salary, String name) {
-        super();
-        this.salary = salary;
-        this.name = name;
-    }
-}
 
 public class MapTest {
 
@@ -33,7 +24,7 @@ public class MapTest {
         //filter
         numberList.stream().filter(n -> n % 2 == 0).forEach(System.out::println);
 
-        emp.stream().filter(str -> str.name.length() > 8).forEach(n -> System.out.println(n.name));
+        emp.stream().filter(str -> str.getName().length() > 8).forEach(n -> System.out.println(n.getName()));
 
         emp.stream().filter(e -> e.salary > 200000).forEach(n -> System.out.println(n.salary));
 
@@ -59,7 +50,7 @@ public class MapTest {
         System.out.println(sum);
 
         String nullName = null;
-        String name = Optional.ofNullable(s2).orElseThrow(
+        String name = Optional.ofNullable(s1).orElseThrow(
                 IllegalArgumentException::new);
         System.out.println(name);
 
