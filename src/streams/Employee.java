@@ -1,43 +1,23 @@
 package streams;
 
-public class Employee {
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.List;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+public class Employee{
+
+    private int id;
     private String name;
-    private String jobTitle;
-    private int age;
-    int salary;
- 
-    public Employee(String name, String jobTitle, int age, int salary) {
-        this.name = name;
-        this.jobTitle = jobTitle;
-        this.age = age;
-        this.salary = salary;
-    }
-    public Employee(int salary, String name) {
-        this.name = name;
-        this.salary = salary;
-    }
- 
-    // getters and setters
+    private String dept;
+    private List<Project> projects;
+    private double salary;
+    private String gender;
 
-
-
-    public String toString() {
-        return String.format("%s\t%s\t%d\t%d", name, jobTitle, age, salary);
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getJobTitle() {
-        return jobTitle;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public int getSalary() {
-        return salary;
-    }
 }

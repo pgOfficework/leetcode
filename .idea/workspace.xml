@@ -5,52 +5,87 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80878a3a-924e-4ae7-a18d-2d175c62dce9" name="Changes" comment="fix">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IBM/CodingTestAptio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IBM/Line1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IBM/TestHCL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/ContainerWithMostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/easy/ReverseInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/matrix/Multiplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/ComparatorComparable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/MapCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/ParallelStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/People.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/ReduceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/Sorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/comparator/EmployeeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/comparator/SortingMultipleAttributesExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/comparator/comparators/EmployeeAgeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/comparator/comparators/EmployeeChainedComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/comparator/comparators/EmployeeJobTitleComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/comparator/comparators/EmployeeSalaryComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/AngramList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/MapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IBM/CodingTestPatio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/MissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/PascalsTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/PascalsTriangle_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/RemoveDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/newFeatures/ExtendableSwitchCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/newFeatures/PatternMatchingInstanceOf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/newFeatures/SealedClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/StarPattern1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/StarPattern10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/StarPattern11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/StarPattern12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/StarPattern13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/StarPattern14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/StarPattern16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/StarPattern17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/StarPattern18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/StarPattern19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/StarPattern2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/StarPattern20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/StarPattern21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/StarPattern22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/StarPattern23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/StarPattern24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/StarPattern25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/StarPattern3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/StarPattern4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/StarPattern5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/StarPattern6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/StarPattern7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/StarPattern8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/StarPattern9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/TreeMapPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/EmployeeDataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/FilterOddAndEvenNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/StreamIntermediateOperationsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/StreamTerminalOperationsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/JavaSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/JavaSubstringComparisons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/Palindrom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/StringProblem1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/FibTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/SwitchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/BalancedBrackets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/BalancedBrackets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Contacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/Contacts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Result$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/Result$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/Result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/array/SortArray0_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/array/SortArray0_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/IBM/CodingTestAptio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/IBM/Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/IBM/Line.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/IBM/Line.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/IBM/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/IBM/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/core/singletone/BreakSingletone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/core/singletone/Singletone.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/leetcode/dynamicPrograming/Fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/dynamicPrograming/Fibonacci.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/graph/BFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/graph/BFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/graph/DFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/graph/DFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/graph/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/graph/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/sorting/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/sorting/MergeSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/leetcode/streams/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/streams/Employee.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/leetcode/streams/MapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/streams/MapTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/test/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/test/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BalancedBrackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BalancedBrackets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Contacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Contacts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/SortArray0_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/SortArray0_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/streams/Sorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/streams/Sorting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/streams/comparator/EmployeeComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/streams/comparator/EmployeeComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/streams/comparator/SortingMultipleAttributesExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/streams/comparator/SortingMultipleAttributesExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/streams/comparator/comparators/EmployeeAgeComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/streams/comparator/comparators/EmployeeJobTitleComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/streams/comparator/comparators/EmployeeJobTitleComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/streams/comparator/comparators/EmployeeSalaryComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/streams/comparator/comparators/EmployeeSalaryComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IBM/CodingTestAptio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/singletone/BreakSingletone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singletone/BreakSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/singletone/Singletone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singletone/Singleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dynamicPrograming/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamicPrograming/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/BFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/DFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/streams/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/MapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/Sorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/comparator/EmployeeComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/comparator/EmployeeComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/comparator/SortingMultipleAttributesExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/comparator/SortingMultipleAttributesExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/comparator/comparators/EmployeeAgeComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/comparator/comparators/EmployeeJobTitleComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/comparator/comparators/EmployeeJobTitleComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/comparator/comparators/EmployeeSalaryComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/comparator/comparators/EmployeeSalaryComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,32 +115,81 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.A01Fibonacci.executor": "Run",
     "Application.AngramList.executor": "Run",
     "Application.BFS.executor": "Run",
     "Application.BalancedBrackets.executor": "Run",
     "Application.CodingTestAptio (1).executor": "Run",
     "Application.CodingTestAptio.executor": "Run",
+    "Application.CodingTestPatio.executor": "Run",
     "Application.ComparatorComparable.executor": "Run",
     "Application.ContainerWithMostWater.executor": "Run",
     "Application.DFS.executor": "Run",
+    "Application.ExtendableSwitchCase.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.FibTest.executor": "Run",
     "Application.Fibonacci.executor": "Run",
+    "Application.FilterOddAndEvenNumbers.executor": "Run",
     "Application.FlatmapTest.executor": "Run",
     "Application.IsSubsequence.executor": "Run",
     "Application.IsomorphicStrings.executor": "Run",
+    "Application.JavaSubstring.executor": "Run",
+    "Application.JavaSubstringComparisons.executor": "Run",
     "Application.JumpGame.executor": "Run",
     "Application.MapCollection.executor": "Run",
     "Application.MapTest.executor": "Run",
+    "Application.MergeSort.executor": "Run",
     "Application.MinimumCoinChange.executor": "Run",
+    "Application.MissingNumber.executor": "Run",
     "Application.Multiplication.executor": "Run",
+    "Application.Palindrom.executor": "Run",
     "Application.ParallelStream.executor": "Run",
+    "Application.PascalsTriangle.executor": "Run",
+    "Application.PascalsTriangle_II.executor": "Run",
+    "Application.PatternMatchingInstanceOf.executor": "Run",
     "Application.RandomizedSet.executor": "Run",
     "Application.RansomNote.executor": "Run",
     "Application.ReduceDemo.executor": "Run",
+    "Application.RemoveDuplicate.executor": "Run",
     "Application.ReverseInteger.executor": "Run",
     "Application.SortArray0_1.executor": "Run",
     "Application.Sorting.executor": "Run",
     "Application.SortingMultipleAttributesExample.executor": "Run",
+    "Application.StarPattern1.executor": "Run",
+    "Application.StarPattern10.executor": "Run",
+    "Application.StarPattern11.executor": "Run",
+    "Application.StarPattern12.executor": "Run",
+    "Application.StarPattern13.executor": "Run",
+    "Application.StarPattern14.executor": "Run",
+    "Application.StarPattern16.executor": "Run",
+    "Application.StarPattern17.executor": "Run",
+    "Application.StarPattern18.executor": "Run",
+    "Application.StarPattern19.executor": "Run",
+    "Application.StarPattern2.executor": "Run",
+    "Application.StarPattern20.executor": "Run",
+    "Application.StarPattern21.executor": "Run",
+    "Application.StarPattern22.executor": "Run",
+    "Application.StarPattern23.executor": "Run",
+    "Application.StarPattern24.executor": "Run",
+    "Application.StarPattern25.executor": "Run",
+    "Application.StarPattern3.executor": "Run",
+    "Application.StarPattern4.executor": "Run",
+    "Application.StarPattern5.executor": "Run",
+    "Application.StarPattern6.executor": "Run",
+    "Application.StarPattern7.executor": "Run",
+    "Application.StarPattern8.executor": "Run",
+    "Application.StarPattern9.executor": "Run",
+    "Application.StreamIntermediateOperationsExample.executor": "Run",
+    "Application.StreamTerminalOperationsExample.executor": "Run",
+    "Application.StringProblem1.executor": "Run",
+    "Application.SwitchTest.executor": "Run",
+    "Application.Test.executor": "Run",
     "Application.TestHCL.executor": "Run",
+    "Application.TreeMapPractice (1).executor": "Run",
+    "Application.TreeMapPractice (2).executor": "Run",
+    "Application.TreeMapPractice (3).executor": "Run",
+    "Application.TreeMapPractice (4).executor": "Run",
+    "Application.TreeMapPractice.executor": "Run",
     "Application.ValidAnagram.executor": "Run",
     "Application.ValidPalindrome.executor": "Run",
     "Application.WordPattern.executor": "Run",
@@ -117,10 +201,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "ToolWindowBuild.ShowToolbar": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/git/leetcode",
+    "last_opened_file_path": "D:/projects/circuit-breakers-hystrix",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -137,61 +222,9 @@
       <recent name="D:\git\leetcode\src\externalJARS" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ContainerWithMostWater">
-    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ContainerWithMostWater" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FlatmapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.FlatmapTest" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReduceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.ReduceDemo" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.ReverseInteger" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestHCL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IBM.TestHCL" />
+  <component name="RunManager" selected="Application.FibTest">
+    <configuration name="CodingTestPatio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IBM.CodingTestPatio" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -203,13 +236,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FibTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.FibTest" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicPrograming.Fibonacci" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dynamicPrograming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.MapTest" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwitchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.SwitchTest" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ContainerWithMostWater" />
-        <item itemvalue="Application.ReverseInteger" />
-        <item itemvalue="Application.ReduceDemo" />
-        <item itemvalue="Application.FlatmapTest" />
-        <item itemvalue="Application.TestHCL" />
+        <item itemvalue="Application.FibTest" />
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.MapTest" />
+        <item itemvalue="Application.SwitchTest" />
+        <item itemvalue="Application.CodingTestPatio" />
       </list>
     </recent_temporary>
   </component>
@@ -281,6 +366,20 @@
             <option name="lambda-ordinal" value="-1" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pattern/StarPattern3.java</url>
+          <line>1</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/Test.java</url>
+          <line>57</line>
+          <properties class="test.Test" method="fib">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

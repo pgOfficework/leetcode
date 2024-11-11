@@ -18,7 +18,7 @@ public class Sorting {
         Collection<People> collect = people.stream()
                 .sorted(Comparator.comparing(People::getCity)
                         .thenComparing(People::getName))
-                .collect(toList());
+                .toList();
 
         for (People s: collect){
             System.out.println(s.city+ " "+s.name);
