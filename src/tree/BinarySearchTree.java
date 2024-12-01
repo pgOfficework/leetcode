@@ -1,6 +1,8 @@
 package tree;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 public class BinarySearchTree {
@@ -180,6 +182,31 @@ public class BinarySearchTree {
         }
     }
 
+    private static Boolean isVlaidBST(TreeNode root) {
+        return isVlaidBST(root,Long.MIN_VALUE,Long.MAX_VALUE);
+    }
+
+    private static Boolean isVlaidBST(TreeNode root, long minValue, long maxValue) {
+
+        if (root==null) return true;
+        if (root.val>=maxValue || root.val<=minValue) return false;
+
+        return isVlaidBST(root.left,minValue,root.val) && isVlaidBST(root.right,maxValue,root.val);
+    }
+
+    static void inorderBTSTrav(TreeNode root,List<Integer> list){
+        if (root==null)
+            return;
+
+        if (!list.isEmpty() && root.val<=list.get(list.size()-1))
+            System.out.println("not BST");
+
+        inorderBTSTrav(root.left,list);
+        System.out.print(" "+root.val);
+        list.add(root.val);
+        inorderBTSTrav(root.right,list);
+    }
+
     public static void main(String[] args) {
         BinarySearchTree b_tree = new BinarySearchTree();
 
@@ -189,12 +216,22 @@ public class BinarySearchTree {
             b_tree.insert(i);
         }
 
-        b_tree.traverseLevelOrder();
+        System.out.println("Is valid BST: "+isVlaidBST(rootNode));
+        List<Integer> list=new ArrayList<>();
+
+       // b_tree.traverseLevelOrder();
 
         System.out.print("\n" + nodes.length + "\n");
         TreeNode t = b_tree.remove(rootNode, 35);
-        b_tree.traverseLevelOrder();
+     //   b_tree.traverseLevelOrder();
+
+        inorderBTSTrav(rootNode,list);
+        System.out.println();
+
+        list.forEach(l-> System.out.print(" "+l));
 
     }
+
+
 
 }

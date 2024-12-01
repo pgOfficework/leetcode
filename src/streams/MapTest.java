@@ -58,7 +58,7 @@ public class MapTest {
 
         int sum1 = list1.stream().mapToInt(Integer::intValue).sum();
 
-        System.out.println("sum1 " + reduce);
+        System.out.println("sum1 " + sum1);
 
 
         List<Integer> nums = Arrays.asList(1,2,3,4,5);
@@ -77,7 +77,7 @@ public class MapTest {
 
         Map<String, Long> collect2 = emp.stream().collect(Collectors.groupingBy(Employee::getDept, Collectors.counting()));
 
-        System.out.println();
+        System.out.println("counting...............");
 
         collect2.entrySet().forEach(System.out::println);
 
