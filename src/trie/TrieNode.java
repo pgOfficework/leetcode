@@ -4,7 +4,6 @@ import java.util.HashMap;
 
 public class TrieNode {
     private HashMap<Character, TrieNode> chain = new HashMap<>();
-
     private boolean isEndOfWord = false;
 
     public void setEndOfWord(boolean isEndOfWord) {
